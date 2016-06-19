@@ -13,7 +13,7 @@ A repro for https://github.com/aspnet/Mvc/issues/4883
   Pragma: no-cache
   ```
   
-3. send this request for successful header parsing
+3. Send this request for successful header parsing
   ```
   POST http://localhost:3744/services/authorization HTTP/1.1
   SCRAM-SHA-256: n,n=1,r=mhtzCDgCf3ZBKUpiYNFctfnFaXYf2MlSuZgc1Oc3DUM=
